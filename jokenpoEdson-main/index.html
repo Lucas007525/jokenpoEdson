@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jokenpô</title>
+
+    <!-- Ligação com o CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+
+        <h1>Jokenpô</h1>
+
+        <h3>Jogador</h3>
+
+        <!-- Imagens ilustrativas -->
+        <div class="imagens-jogador">
+            <img src="./pedra.png" alt="pedra">
+            <img src="./papel.png" alt="papel">
+            <img src="./tesoura.png" alt="tesoura">
+        </div>
+
+        <form name="frmjokenpo" class="opcoes">
+            <label>
+                <input type="radio" name="grupo" id="pedra"> Pedra
+            </label>
+
+            <label>
+                <input type="radio" name="grupo" id="papel"> Papel
+            </label>
+
+            <label>
+                <input type="radio" name="grupo" id="tesoura"> Tesoura
+            </label>
+
+            <div class="botoes">
+                <input type="button" value="JOGAR" onclick="jogar()">
+                <input type="reset" value="RESET">
+            </div>
+        </form>
+
+        <hr>
+
+        <h3>Computador</h3>
+        <img src="./pc.png" alt="pc" id="pc">
+
+        <hr>
+
+        <h3 id="placar">Placar</h3>
+
+    </div>
+
+    <script src="jokenpo.js"></script>
+
+</body>
+</html>
