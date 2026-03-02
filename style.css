@@ -1,0 +1,84 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Fundo da página */
+body {
+    height: 100vh;
+    background: linear-gradient(135deg, #141e30, #243b55);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Container principal */
+.container {
+    background: #ffffff;
+    padding: 40px;
+    border-radius: 20px;
+    width: 400px;
+    text-align: center;
+    box-shadow: 0 15px 40px rgba(0, 0, 0, 0.3);
+    transition: 0.3s;
+}
+
+/* Título */
+h1 {
+    margin-bottom: 25px;
+    color: #243b55;
+}
+
+/* Área das opções */
+.opcoes {
+    margin-bottom: 20px;
+}
+
+.opcoes label {
+    display: block;
+    margin: 10px 0;
+    cursor: pointer;
+    font-size: 18px;
+    transition: 0.2s;
+}
+
+.opcoes label:hover {
+    color: #243b55;
+    transform: scale(1.05);
+}
+
+/* Botão jogar */
+button {
+    background: #243b55;
+    color: white;
+    border: none;
+    padding: 12px 25px;
+    border-radius: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    background: #141e30;
+    transform: scale(1.05);
+}
+
+/* Imagem do computador */
+#pc {
+    margin-top: 20px;
+    width: 120px;
+}
+
+/* Placar */
+#placar {
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #f1f1f1;
+}
